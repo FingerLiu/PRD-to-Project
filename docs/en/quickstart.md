@@ -1,6 +1,31 @@
 # Quick Start Guide
 
-This guide will help you create your first AI-driven, iterative, and collaborative project in under 10 minutes. Whether you're building a web app, mobile app, or WeChat Mini Program, follow these steps to get started.
+> Transform your PRD into a fully functional project in under 10 minutes.
+
+This guide will walk you through the process of using AI to convert your Product Requirements Document (PRD) into a working application. Whether you're building a web app, mobile app, or WeChat mini program, you'll learn how to leverage our AI-powered development platform for efficient project delivery.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Choose Your PRD Template](#choose-your-prd-template)
+- [Getting Started](#getting-started)
+  - [Open Your Project in Windsurf](#1-open-your-project-in-windsurf)
+  - [Start Development](#2-start-development)
+  - [Debug and Test](#3-debug-and-test)
+  - [Deploy](#4-deploy)
+- [Iterate and Update](#5-iterate-and-update)
+- [Next Steps](#next-steps)
+
+## What You'll Learn
+
+- How to select and use project templates
+- Setting up your development environment
+- Working with AI for code generation
+- Testing and debugging your application
+- Deploying to production
+- Managing version updates
+
+Expected time: 10 minutes
 
 ## Prerequisites
 
