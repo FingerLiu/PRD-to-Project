@@ -1,0 +1,77 @@
+# .windsurfrules
+
+# 1. Security and Sensitive Information
+IGNORE_PATTERNS:
+  - "**/.env*"
+  - "**/secrets/*"
+  - "**/credentials.json"
+  - "**/config.private.json"
+  - "**/node_modules"
+  - "**/.next"
+  - "**/build"
+  - "**/dist"
+
+# 2. Documentation and Resource Structure
+DOCUMENTATION_RULES:
+  markdown_files:
+    - README.md: "项目主要说明文档"
+    - CONTRIBUTING.md: "贡献指南"
+    - CODE_OF_CONDUCT.md: "行为准则"
+    - LICENSE: "开源协议"
+  resource_directories:
+    - docs/: "详细文档目录"
+    - assets/: "静态资源目录"
+    - examples/: "示例代码目录"
+
+# 3. Version Control and Changelog
+VERSION_CONTROL:
+  changelog:
+    format: "Keep a Changelog"
+    files:
+      - CHANGELOG.md
+  release_notes:
+    directory: "releases/"
+    format: "年份-月份-版本号.md"
+
+# 4. Next.js + Tailwind Project Structure
+NEXTJS_PROJECT:
+  directory: "website/"
+  structure:
+    - app/: "App Router 目录"
+    - components/: "可复用组件"
+    - lib/: "工具函数"
+    - styles/: "全局样式"
+    - public/: "静态资源"
+  best_practices:
+    - "使用 TypeScript"
+    - "实现响应式设计"
+    - "优化图片资源"
+    - "实现深色模式"
+    - "使用 ESLint 和 Prettier"
+
+# 5. AI Collaboration Guidelines
+AI_COLLABORATION:
+  context_files:
+    - .github/ISSUE_TEMPLATE/
+    - docs/AI_GUIDELINES.md
+  memory_files:
+    - .memories/
+    - .context/
+
+# 6. Quality Assurance
+QUALITY_RULES:
+  - "所有 Markdown 文件必须包含适当的标题层级"
+  - "图片资源需要优化压缩"
+  - "代码示例需要包含注释"
+  - "文档需要包含中英文版本"
+
+# 7. Collaboration Workflow
+WORKFLOW:
+  branches:
+    main: "稳定版本"
+    develop: "开发版本"
+    feature: "feature/*"
+    docs: "docs/*"
+  pull_requests:
+    template: ".github/PULL_REQUEST_TEMPLATE.md"
+    review_required: true
