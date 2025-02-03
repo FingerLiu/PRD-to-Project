@@ -14,6 +14,17 @@ An innovative experiment in project management that uses PRD (Product Requiremen
 - 📚 Automated Documentation Updates
 - 🌍 Bilingual Support (English & Chinese)
 
+## 🚀 Quick Start
+
+Ready to transform your PRD into a fully functional project? Follow our [Quick Start Guide](docs/en/quickstart.md) to:
+
+1. 🎯 Choose the perfect template for your project
+2. 💻 Set up your development environment
+3. 🤖 Start AI-powered development
+4. 🚀 Deploy your application
+
+Visit our [documentation](docs/en/quickstart.md) to get started in under 10 minutes!
+
 ## 📁 Directory Structure
 
 ```
